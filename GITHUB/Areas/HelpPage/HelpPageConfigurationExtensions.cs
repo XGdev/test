@@ -37,6 +37,7 @@ namespace GITHUB.Areas.HelpPage
         /// <param name="sampleObjects">The sample objects.</param>
         public static void SetSampleObjects(this HttpConfiguration config, IDictionary<Type, object> sampleObjects)
         {
+            //hh
             //xg
             config.GetHelpPageSampleGenerator().SampleObjects = sampleObjects;
         }
