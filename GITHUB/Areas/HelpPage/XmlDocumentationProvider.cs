@@ -14,7 +14,6 @@ namespace GITHUB.Areas.HelpPage
     /// </summary>
     public class XmlDocumentationProvider : IDocumentationProvider, IModelDocumentationProvider
     {
-        //test
         private XPathNavigator _documentNavigator;
         private const string TypeExpression = "/doc/members/member[@name='T:{0}']";
         private const string MethodExpression = "/doc/members/member[@name='M:{0}']";
