@@ -39,6 +39,7 @@ namespace GITHUB.Areas.HelpPage
         {
             //hh
             //xg
+            //xg
             config.GetHelpPageSampleGenerator().SampleObjects = sampleObjects;
         }
 
