@@ -5,6 +5,7 @@ namespace GITHUB.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {
+        //xg
         public override string AreaName
         {
             get
